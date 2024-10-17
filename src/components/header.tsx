@@ -11,7 +11,7 @@ import Link from "next/link"
 const Header = () => {
   return (
     <Card>
-      <CardContent className="flex flex-row items-center justify-between p-5">
+      <CardContent className="flex flex-row items-center justify-between p-2">
         <Link href="/">
             <Image alt="CBM Barber" src={logo} width={50} height={18} />
         </Link>
